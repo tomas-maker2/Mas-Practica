@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/820d828ec1.js" crossorigin="anonymous"></script>
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="index.html"><h1>El Solar</h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger"><div class="bar"></div></div>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="tienda.html">Tienda</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="wrapper">
+        <aside>
+            <ul class="menu">
+                <li> <button class="boton-menu boton-categoria active" id="todos"><i class="fa-solid fa-tags"></i> Productos</button></li>
+                <li> <button class="boton-menu boton-categoria " id="abrigos"> Abrigos</button></li>
+                <li> <button class="boton-menu boton-categoria" id="remeras"> Remeras</button></li>
+                <li> <button class="boton-menu boton-categoria" id="pantalones"> Pantalones</button></li>
+                <li> <button class="boton-menu boton-categoria" id="zapatillas"> zapatillas</button></li>
+                <li> <button class="boton-menu boton-categoria" id="medias"> medias</button></li>
+                <li><a class="boton-carrito boton-menu" href="./carrito.html"><i class="fa-solid fa-cart-arrow-down"></i><span id="numerito" class="numerito">0</span></a></li>
+            </ul>
+        </aside>
+
+
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los Productos</h2>
+            <div class="contenedor-productos" id="contenedor-productos">
+                <!-- con JS -->
+            </div>
+        </main>
+    </div>
+
+
+
+
+
+    <script src="./JS/tienda.js"></script>
+</body>
+</html>

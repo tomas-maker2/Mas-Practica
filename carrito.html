@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://kit.fontawesome.com/820d828ec1.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="index.html"><h1>El Solar</h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger"><div class="bar"></div></div>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="tienda.html">Tienda</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="wrapper">
+        <aside>
+            <ul class="menu2">
+                
+                <li><a class="boton-menu boton-carrito " href="./tienda.html"><i class="fa-brands fa-stripe-s"></i> Volver </a></li>
+                
+                <li><a class="boton-menu boton-carrito active" href="./carrito.html"><i class="fa-brands fa-shopify"></i> Carrito</a></li>
+            </ul>
+        </aside>
+
+
+        <main>
+            <h2 class="titulo-principal">Carrito</h2>
+            <div class="contenedor-carrito">
+                <p id="carrito-vacio" class="carrito-vacio">No hay nada en tu Carrito <i class="fa-regular fa-face-sad-tear"></i></p>
+
+                <div id="carrito-productos" class="carrito-productos disabled">
+                <!-- JS -->
+                </div>
+
+                <div id="carrito-acciones" class="carrito-acciones disabled">
+                    <div class="carrito-acciones-izquierda">
+                        <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar Carrito</button>
+                    </div>
+                    <div class="carrito-acciones-derecha">
+                        
+                        
+
+                        <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+                        data-preference-id="497066559-a80f6393-2127-42f9-bea5-aeb663385893" data-source="button">
+                        </script>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="./JS/carrito.js"></script>
+</body>
+</html>
